@@ -1,0 +1,131 @@
+*{
+  font-family: Arial, Helvetica, sans-serif; /*tipos de fonte*/
+}
+
+html{
+  scroll-behavior: smooth; /*deixar o mouse suave*/
+}
+
+body{
+  background-image: linear-gradient(rgb(187, 69, 198), rgb(121, 31, 160), rgb(83, 29, 127)); /*background gradiente da página*/
+}
+
+nav ul{ /*barra de navegação*/
+  list-style-type: none; /*nenhum tipo de lista*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #232526;
+}
+
+li{
+  float: left; /*flutuar a esquerda*/
+}
+
+li a{
+  display: block; /*display em bloco*/
+  padding: 15px;
+  gap: 10px;
+}
+
+a:link , a:visited{ /*link normal e link visitado*/
+  text-decoration: none;
+  color: white ;
+}
+
+a:hover{ /*o que irá fazer quando o mouse passar por cima do elemento*/
+  color: #c1b2b2;
+  cursor: pointer;
+}
+
+img { 
+  height: 500px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+h1{
+  text-align: center;
+  font-size: 40px;
+  display: block;
+  width: 100%;
+}
+
+.container{ /*container com display grid*/
+  display: grid;
+  position: relative;
+  grid-template-columns: 40% 50%;
+  margin: 20px;
+  margin-bottom: 80px;
+}
+
+.sobre-mim-title{ /*título da seção sobre mim*/
+  text-align: center;
+  margin-top: 60px;
+  padding-top: 50px;
+}
+
+.sobre-mim{ /*seção sobre mim*/
+  text-align: justify;
+  position: relative;
+}
+
+.title{
+  text-align: center;
+  margin: 50px;
+}
+
+h2{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.formacao-academica{
+  display: flex;
+  margin: 30px;
+  justify-content: space-between; /*define o espaço entre os itens iguais*/
+}
+
+.formacao{
+  margin: 20px;
+}
+
+.projetos{
+  display: grid;
+  grid-template-columns: 5% 40% 10% 40%;
+  margin: 10px;
+}
+
+.imgproject1, .imgproject2{
+  width: 500px;
+}
+
+.container-contact{ 
+  margin: auto;
+  width: 800px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.form-items{
+  width: 100%;
+}
+
+input{
+  width: 70%;
+  padding: 5px;
+  margin-bottom: 4px;
+}
+
+textarea{
+  resize: none;
+  width: 565px;
+}
+
+button{
+  width: 20%;
+  margin: 20px;
+  height: 25px;
+}

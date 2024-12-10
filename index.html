@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Graziellen Monteiro</title>
+</head>
+<body>
+  <header>
+    <nav> <!--Barra de navegação-->
+      <ul>
+        <li><a  href="#link-sobre-mim">Sobre mim</a></li>
+        <li><a  href="#link-formacao">Formação</a></li>
+        <li><a  href="#link-portfolio">Portfólio</a></li>
+        <li><a  href="#link-contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main> <!--principal-->
+    <h1 class="title">GRAZIELLEN MONTEIRO</h1>
+    <div class="container">
+      <div class="cabecalho">
+        <img class="item" src="src/img/eu.JPG" alt="Graziellen">
+      </div>
+      <div class="sobre-mim" id="link-sobre-mim">
+        <h2 class="sobre-mim-title">SOBRE MIM</h2>
+        <p>Sou uma desenvolvedora apaixonada por criar soluções eficientes e aprender algo novo todos os dias. Quando não estou codando, gosto de explorar tendências tecnológicas e melhorar minhas habilidades.
+        Dividindo minha paixão pelo desenvolvimento com minha paixão pela música, acredito que todos podem contribuir um pouco em prol da mais completa e diversa harmonia! </p>
+        <p>Cearense nascida e criada em Horizonte, conquistei meu diploma de ensino médio na escola EEEP Lúcia Helena Viana Ribeiro, na qual também realizei o curso técnico em Segurança do Trabalho. Minha paixão pela tecnologia e a arte de programar surgiu em meados do ano de 2022/2023 por meio de um aplicativo que reunia vídeos do YouTube relacionados à programação.</p>
+      </div>
+    </div>
+  </main>
+  <h2>FORMAÇÃO ACADÊMICA</h2>
+  <section class="formacao-academica" id="link-formacao">
+    <div class="formacao">
+      <h3>Técnica em Segurança do Trabalho</h3>
+      <p>Prevencionista da área de SST, fiz o curso técnico durante o período de 2021-2023 na escola profissional EEEP Lúcia Helena Viana Ribeiro. Como atribuições para a escola posso citar a SIPAT - Semana Interna de Prevenção a Acidentes no Trabalho - 2022 com o tema: Cuidados com o uso de Smartphones, evento em que integrei a equipe de Massoterapia.
+      Além da escola também pude contribuir para a Tijuca alimentos, empresa que atua no segmento de venda de ovos, frangos e laticínio. Pude auxiliar na SIPATR - Semana Interna de Prevenção a Acidentes no Trabalho Rural - 2023 local em que estagiei e realizei dinâmicas de cunho informativo</p>
+    </div>
+    <div class="formacao">
+      <h3>Tecnóloga em Análise e Desenvolvimento de Sistemas (em formação) de 05/2024-11/2026</h3>
+      <p>Enquanto discente da UNINTER regime EaD do curso de Análise e Desenvolvimento de Sistemas, pude ter contato com algumas tecnologias e linguagens de programação, como por exemplo JavaScript e Python. </p>
+    </div>
+  </section>
+  <h2>PROJETOS</h2>
+  <section class="projetos" id="link-portfolio">
+    <div></div>
+    <div class="projeto1">
+      <h1>Projeto X-devs</h1>
+      <p>Este projeto é uma espécie de jogo de cartas que apresenta personagens da área de TI como super-heróis. <a href="https://grazimnt.github.io/Projeto-X-DEVS-/">Projeto-X-DEVS-</a></p>
+      <img class="imgproject1" src="src/img/xdevs.png" alt="xdevs">
+    </div>
+    <div></div>
+    <div class="projeto2">
+      <h1>Check-in</h1>
+      <p>Este projeto é uma tela de login para realizar o check-in confirmando sua participação em determinado evento, apenas front-end. <a href="https://grazimnt.github.io/nlw-unite-curso/">Check-in</a></p>
+      <img class="imgproject2" src="src/img/check-in.png" alt="check-in">
+    </div>
+  </section>
+  <section id="link-contato">
+    <div class="container-contact">
+      <h2>CONTATO</h2>
+      <form action="#" method="POST">
+        <div class="form-items">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        </div>
+        
+        <div class="form-items">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+        </div>
+        
+        <div class="form-items">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+        </div>
+  
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2024 Graziellen Monteiro. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
